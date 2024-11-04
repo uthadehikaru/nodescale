@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <meta
+      http-equiv="X-Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <title>Scale</title>
+  </head>
+  <body>
+    <h1>Scale</h1>
+    <select id="port">
+        <option value="">Select COM Port</option>
+        <option value="COM1">COM1</option>
+        <option value="COM2">COM2</option>
+        <option value="COM3">COM3</option>
+        <option value="COM4">COM4</option>
+        <option value="COM5">COM5</option>
+        <option value="COM6">COM6</option>
+        <option value="COM7">COM7</option>
+        <option value="COM8">COM8</option>
+        <option value="COM9">COM9</option>
+        <option value="COM10">COM10</option>
+    </select>
+    <p id="status">No COM Port Connected</p>
+    <p id="info">waiting for data...</p>
+    <script src="./script.js"></script>
+  </body>
+</html>
